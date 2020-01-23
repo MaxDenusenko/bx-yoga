@@ -35,7 +35,7 @@ JCSmartFilter.prototype.click = function(select)
 		clearTimeout(this.timer);
 	this.timer = setTimeout(BX.delegate(function(){
 		this.reload(select);
-	}, this), 1000);
+	}, this), 100);
 };
 
 JCSmartFilter.prototype.reload = function(input)

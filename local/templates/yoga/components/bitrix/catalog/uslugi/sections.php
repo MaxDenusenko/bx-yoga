@@ -76,7 +76,7 @@ if ($arParams["USE_COMPARE"] === "Y")
         </div>
 
         <h1 class="services__name general-gradient">Выберите подходящую услугу</h1>
-        <div class="teachers__filter">
+        <div class="teachers__filter" id="filter">
             <?$APPLICATION->IncludeComponent(
                 "bitrix:catalog.smart.filter",
                 "filter",
